@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-08-21T17:49:49.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="owFvOFdspiI3NhvzqMea" version="21.2.7" type="google">
+  <diagram name="Página-1" id="aOygO8x7dgvJN4-pldk1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="580" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;RECUPERAR SENHA DE ACESSO&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUbHIF69mZVtT3DVfvzU-3" target="MUbHIF69mZVtT3DVfvzU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-3" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUbHIF69mZVtT3DVfvzU-5" target="MUbHIF69mZVtT3DVfvzU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-5" value="Acessar Menu de Recuperação de Senha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MUbHIF69mZVtT3DVfvzU-8" target="MUbHIF69mZVtT3DVfvzU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-8" value="Inserir e-mail de recuperação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUbHIF69mZVtT3DVfvzU-9" target="MUbHIF69mZVtT3DVfvzU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-9" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MUbHIF69mZVtT3DVfvzU-12" target="MUbHIF69mZVtT3DVfvzU-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="613" y="330" />
+              <mxPoint x="613" y="360" />
+              <mxPoint x="385" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-12" value="Enviar e-mail de recuperação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="491" y="282" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUbHIF69mZVtT3DVfvzU-20" target="MUbHIF69mZVtT3DVfvzU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-20" value="Inserir senha nova" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="400" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUbHIF69mZVtT3DVfvzU-23" value="Confirmar Alterações" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="105" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

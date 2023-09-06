@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-08-21T19:37:05.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="DQKMgnPJfErnOj8zEPs0" version="21.6.8" type="google">
+  <diagram name="Página-1" id="tu_41fJogd_LxWNCEoEd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="490" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzqL1yHqt6T1sU3vmbZm-2" target="WzqL1yHqt6T1sU3vmbZm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-2" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzqL1yHqt6T1sU3vmbZm-3" target="WzqL1yHqt6T1sU3vmbZm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-3" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="540" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-5" value="CADASTRAR DIVISÃO DE RH" style="text;whiteSpace=wrap;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="238.75" y="230" width="232.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzqL1yHqt6T1sU3vmbZm-6" target="WzqL1yHqt6T1sU3vmbZm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-6" value="Efetuar Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="325" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzqL1yHqt6T1sU3vmbZm-9" target="WzqL1yHqt6T1sU3vmbZm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-9" value="Acessar rotina de cadastro de divisões" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="322.5" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzqL1yHqt6T1sU3vmbZm-11" target="WzqL1yHqt6T1sU3vmbZm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-11" value="Inserir dados da nova divisão" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-13" value="Salvar alterações" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="178.75" y="432.5" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WzqL1yHqt6T1sU3vmbZm-15" value="Autenticar Ações" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="552" width="130" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

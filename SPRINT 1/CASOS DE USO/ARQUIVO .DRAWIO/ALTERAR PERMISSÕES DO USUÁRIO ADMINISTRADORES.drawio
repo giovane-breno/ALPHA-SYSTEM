@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-08-21T16:32:54.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="oZ5yTj6N43mH5IZM1w-i" version="21.2.7" type="google">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="120" width="530" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-0" value="ALTERAR PERMISSÕES DO USUÁRIO ADMINISTRADORES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="140" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FPOYmL3TQIEWw46MG-XX-2" target="FPOYmL3TQIEWw46MG-XX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-2" value="Supervisor de&amp;nbsp;&lt;br&gt;Recursos Humanos" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="230" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FPOYmL3TQIEWw46MG-XX-7" target="FPOYmL3TQIEWw46MG-XX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-7" value="Efetuar Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="245" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FPOYmL3TQIEWw46MG-XX-12" target="FPOYmL3TQIEWw46MG-XX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-12" value="Acessar Seção de Gerenciamento de Usuários" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="235" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FPOYmL3TQIEWw46MG-XX-14" target="FPOYmL3TQIEWw46MG-XX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-14" value="Selecionar Usuário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="350" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FPOYmL3TQIEWw46MG-XX-16" target="FPOYmL3TQIEWw46MG-XX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-16" value="Escolher permissões para alterar ou adicionar." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="175" y="350" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-18" value="Salvar Alterações" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="185" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FPOYmL3TQIEWw46MG-XX-20" target="FPOYmL3TQIEWw46MG-XX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-20" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="455" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FPOYmL3TQIEWw46MG-XX-23" value="Autenticar Ações" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="470" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
