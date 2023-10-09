@@ -3,11 +3,11 @@
  
 ### 📑 Repositórios do Sistema
 
-[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-WEB-00cc99?style=for-the-badge&logo=visualstudiocode&logoColor=white)]([https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%201/CASOS%20DE%20USO](https://github.com/giovane-breno/alpha-system-web))
-[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-DESKTOP-00ccff?style=for-the-badge&logo=visualstudiocode&logoColor=white)]([https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%201/CASOS%20DE%20USO](https://github.com/giovane-breno/alpha-system-desktop))
+[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-WEB-00cc99?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/giovane-breno/alpha-system-web)
+[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-DESKTOP-00ccff?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/giovane-breno/alpha-system-desktop)
 
-[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-MOBILE-ff9933?style=for-the-badge&logo=visualstudiocode&logoColor=white)]([https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%201/CASOS%20DE%20USO](https://github.com/giovane-breno/alpha-system-mobile))
-[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-API-ff0000?style=for-the-badge&logo=visualstudiocode&logoColor=white)]([[https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%201/CASOS%20DE%20USO](https://github.com/giovane-breno/alpha-system-mobile](https://github.com/giovane-breno/api-payroll)))
+[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-MOBILE-ff9933?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/giovane-breno/alpha-system-mobile)
+[![portfolio](https://img.shields.io/badge/ALPHA_SYSTEM-API-ff0000?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/giovane-breno/alpha-system-mobile](https://github.com/giovane-breno/api-payroll))
 
 ### 🔗 Controle de Sprints
 [![portfolio](https://img.shields.io/badge/SPRINT_01-ANTIGO-d3d3d3?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%201/CASOS%20DE%20USO)
