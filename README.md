@@ -19,7 +19,7 @@
 ![portfolio](https://img.shields.io/badge/SPRINT_05-PERIODO_PROVAS-ff3300?style=for-the-badge&logo=stackblitz&logoColor=white)
 
 [![portfolio](https://img.shields.io/badge/SPRINT_06-ANTIGO-d3d3d3?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%206)
-[![portfolio](https://img.shields.io/badge/SPRINT_06-NOVO-00?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%207)
+[![portfolio](https://img.shields.io/badge/SPRINT_07-NOVO-00?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%207)
 
 
 
