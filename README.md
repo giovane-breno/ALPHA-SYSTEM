@@ -24,7 +24,7 @@
 [![portfolio](https://img.shields.io/badge/SPRINT_08-CONCLUIDO-0da818?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%208)
 [![portfolio](https://img.shields.io/badge/SPRINT_09-CONCLUIDO-0da818?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%209)
 
-[![portfolio](https://img.shields.io/badge/SPRINT_10-CONCLUIDO-0da818?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%210)
+[![portfolio](https://img.shields.io/badge/SPRINT_10-CONCLUIDO-0da818?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/giovane-breno/ALPHA-SYSTEM/tree/main/SPRINT%2010)
 
 
 
