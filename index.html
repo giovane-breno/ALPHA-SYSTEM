@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alpha System — plataforma acadêmica para gestão de folha de pagamento e rotinas de recursos humanos.">
+  <title>Alpha System — Gestão de folha de pagamento</title>
+  <link rel="icon" href="assets/alpha-logo.png" type="image/png">
+  <style>
+    :root { --ink:#09101c; --muted:#718096; --line:#e6ebf2; --blue:#1478e8; --cyan:#20c9e8; --green:#00b889; --surface:#f6f9fc; --white:#fff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--white); }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1120px, calc(100% - 40px)); margin:auto; }
+    .nav { height:78px; display:flex; align-items:center; justify-content:space-between; }
+    .brand img { width:132px; height:auto; display:block; }
+    .nav-links { display:flex; gap:28px; color:#66748a; font-size:14px; font-weight:650; }
+    .nav-links a:hover { color:var(--blue); }
+    .nav-cta { border:1px solid #d8e3ef; padding:11px 17px; border-radius:9px; color:var(--blue); font-size:14px; font-weight:750; }
+    .hero { padding:82px 0 100px; display:grid; grid-template-columns:1.03fr .97fr; gap:70px; align-items:center; }
+    .eyebrow { display:inline-flex; align-items:center; gap:9px; color:var(--blue); font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    .eyebrow::before { content:""; width:24px; height:2px; background:linear-gradient(90deg,var(--blue),var(--cyan)); }
+    h1 { font-size:clamp(42px, 5.4vw, 72px); letter-spacing:-.065em; line-height:.98; margin:22px 0 25px; max-width:640px; }
+    h1 span { color:var(--blue); }
+    .hero-copy { color:var(--muted); font-size:18px; line-height:1.7; max-width:530px; margin:0 0 32px; }
+    .actions { display:flex; align-items:center; gap:13px; flex-wrap:wrap; }
+    .button { display:inline-flex; align-items:center; gap:10px; border-radius:9px; padding:14px 19px; font-size:14px; font-weight:800; }
+    .button.primary { color:#fff; background:var(--blue); box-shadow:0 12px 26px rgba(20,120,232,.2); }
+    .button.secondary { color:#42536a; border:1px solid #d8e3ef; }
+    .hero-art { position:relative; min-height:398px; display:flex; align-items:center; justify-content:center; }
+    .glow { position:absolute; width:330px; height:330px; border-radius:50%; background:radial-gradient(circle,rgba(32,201,232,.23),rgba(20,120,232,.04) 65%,transparent 70%); }
+    .mock { position:relative; width:min(530px,100%); border:1px solid #d9e5f0; border-radius:16px; overflow:hidden; background:#fff; box-shadow:0 28px 70px rgba(25,66,112,.15); transform:rotate(1.5deg); }
+    .mock-top { height:34px; display:flex; align-items:center; gap:6px; padding:0 13px; border-bottom:1px solid #e9eef4; background:#fbfdff; }
+    .dot { width:7px; height:7px; border-radius:50%; background:#d7e1eb; }
+    .mock img { display:block; width:100%; height:260px; object-fit:cover; object-position:center top; }
+    .mock-tag { position:absolute; right:20px; bottom:17px; padding:9px 12px; border-radius:8px; background:rgba(9,16,28,.9); color:#fff; font-size:11px; font-weight:800; letter-spacing:.03em; }
+    .proof { border-top:1px solid var(--line); border-bottom:1px solid var(--line); display:grid; grid-template-columns:repeat(4,1fr); padding:28px 0; gap:24px; }
+    .proof strong { display:block; font-size:23px; letter-spacing:-.04em; }
+    .proof span { color:var(--muted); font-size:12px; margin-top:5px; display:block; }
+    section { padding:106px 0; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:30px; margin-bottom:42px; }
+    .section-head h2 { margin:13px 0 0; font-size:40px; letter-spacing:-.055em; line-height:1; }
+    .section-head p { max-width:420px; color:var(--muted); line-height:1.7; margin:0; }
+    .features { background:var(--surface); }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:17px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:25px; min-height:205px; }
+    .icon { width:38px; height:38px; display:grid; place-items:center; border-radius:10px; color:var(--blue); background:#eaf4ff; font-weight:900; font-size:16px; }
+    .card h3 { margin:22px 0 9px; font-size:18px; letter-spacing:-.025em; }
+    .card p { margin:0; color:var(--muted); line-height:1.65; font-size:14px; }
+    .story { display:grid; grid-template-columns:.85fr 1.15fr; gap:80px; align-items:center; }
+    .story h2 { font-size:42px; line-height:1.05; letter-spacing:-.06em; margin:14px 0 20px; }
+    .story p { color:var(--muted); line-height:1.75; }
+    .checklist { list-style:none; padding:0; margin:28px 0 0; display:grid; gap:13px; }
+    .checklist li { display:flex; gap:11px; align-items:start; font-size:14px; font-weight:700; }
+    .checklist li::before { content:"✓"; color:var(--green); font-weight:900; }
+    .showcase { border-radius:18px; overflow:hidden; border:1px solid #dce6f0; box-shadow:0 24px 55px rgba(25,66,112,.12); }
+    .showcase img { display:block; width:100%; height:370px; object-fit:cover; object-position:center top; }
+    .architecture { background:var(--ink); color:#fff; }
+    .architecture .eyebrow { color:#6fd9ee; }
+    .architecture .section-head p { color:#9aaabd; }
+    .architecture .section-head h2 { color:#fff; }
+    .flow { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .flow-step { border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:21px; background:rgba(255,255,255,.045); }
+    .flow-step small { color:#6fd9ee; font-weight:900; letter-spacing:.1em; }
+    .flow-step strong { display:block; margin-top:35px; font-size:17px; }
+    .flow-step span { display:block; color:#9aaabd; font-size:13px; line-height:1.5; margin-top:8px; }
+    .tcc { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    .tcc-box { border:1px solid var(--line); border-radius:14px; padding:28px; }
+    .tcc-box h3 { margin:0 0 18px; font-size:18px; }
+    .team { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    .person { border-top:1px solid var(--line); padding:17px 0; }
+    .person strong { display:block; font-size:14px; }
+    .person span { color:var(--muted); font-size:12px; }
+    footer { padding:28px 0; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+    .footer { display:flex; justify-content:space-between; gap:20px; }
+    @media (max-width: 800px) { .nav-links { display:none; } .hero,.story { grid-template-columns:1fr; gap:40px; padding-top:58px; } .hero-art { min-height:300px; } .proof { grid-template-columns:repeat(2,1fr); } .cards,.flow,.tcc { grid-template-columns:1fr; } .team { grid-template-columns:1fr 1fr; } .section-head { display:block; } .section-head p { margin-top:20px; } .showcase img { height:250px; } }
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="Alpha System"><img src="assets/alpha-logo.png" alt="Alpha System"></a>
+    <nav class="nav-links" aria-label="Navegação"><a href="#produto">Produto</a><a href="#arquitetura">Arquitetura</a><a href="#tcc">O TCC</a></nav>
+    <a class="nav-cta" href="https://github.com/giovane-breno/ALPHA-SYSTEM">Ver repositório ↗</a>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="inicio">
+      <div>
+        <div class="eyebrow">Projeto acadêmico · 2023</div>
+        <h1>Folha de pagamento com <span>clareza.</span></h1>
+        <p class="hero-copy">O Alpha System é uma proposta de sistema para organizar rotinas de recursos humanos, conectando cadastro, permissões e geração de demonstrativos em um só fluxo.</p>
+        <div class="actions"><a class="button primary" href="#produto">Conhecer o projeto ↓</a><a class="button secondary" href="https://youtu.be/W6zN7vlOiac">Apresentação ↗</a></div>
+      </div>
+      <div class="hero-art"><div class="glow"></div><div class="mock"><div class="mock-top"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><img src="assets/dashboard.jpg" alt="Dashboard do Alpha System"><span class="mock-tag">gestão · RH · payroll</span></div></div>
+    </section>
+
+    <div class="wrap proof"><div><strong>10</strong><span>sprints documentadas</span></div><div><strong>4</strong><span>frentes do sistema</span></div><div><strong>1</strong><span>produto integrado</span></div><div><strong>6</strong><span>integrantes no time</span></div></div>
+
+    <section class="features" id="produto"><div class="wrap"><div class="section-head"><div><div class="eyebrow">O produto</div><h2>Uma base para operar melhor.</h2></div><p>O projeto nasceu de um problema simples: tornar as rotinas de folha e administração de pessoas mais organizadas, rastreáveis e acessíveis.</p></div><div class="cards"><article class="card"><div class="icon">01</div><h3>Cadastros estruturados</h3><p>Empresas, funcionários, divisões e usuários organizados em fluxos claros de cadastro e manutenção.</p></article><article class="card"><div class="icon">02</div><h3>Folha de pagamento</h3><p>Dados do funcionário reunidos para gerar demonstrativos de pagamento de forma consistente.</p></article><article class="card"><div class="icon">03</div><h3>Acesso por perfis</h3><p>Permissões e autenticação pensadas para separar responsabilidades dentro do sistema.</p></article></div></div></section>
+
+    <section class="wrap"><div class="story"><div><div class="eyebrow">Da ideia ao fluxo</div><h2>Documentar também é construir.</h2><p>Como TCC, o Alpha System foi desenvolvido com uma visão completa de produto: entendimento do problema, requisitos, modelagem, protótipos, testes e entregas por sprint.</p><ul class="checklist"><li>Casos de uso e requisitos funcionais</li><li>Diagramas de classe e entidade-relacionamento</li><li>Testes com usuários e documentação teórica</li><li>Entregas organizadas em dez sprints</li></ul></div><div class="showcase"><img src="assets/module-view.png" alt="Tela de consultas e demonstrativo do Alpha System"></div></div></section>
+
+    <section class="architecture" id="arquitetura"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Visão do sistema</div><h2>Um ecossistema, várias portas.</h2></div><p>O trabalho foi organizado em frentes complementares para explorar o produto em diferentes contextos de uso.</p></div><div class="flow"><div class="flow-step"><small>01</small><strong>Web</strong><span>Interface principal para operação e gestão.</span></div><div class="flow-step"><small>02</small><strong>Desktop</strong><span>Experiência dedicada para rotinas administrativas.</span></div><div class="flow-step"><small>03</small><strong>Mobile</strong><span>Acesso pensado para acompanhar o trabalho em movimento.</span></div><div class="flow-step"><small>04</small><strong>API</strong><span>Camada de integração para conectar os módulos.</span></div></div></div></section>
+
+    <section class="wrap" id="tcc"><div class="section-head"><div><div class="eyebrow">O TCC</div><h2>Um projeto feito em equipe.</h2></div><p>O Alpha System reúne produto, documentação e colaboração em uma experiência acadêmica completa.</p></div><div class="tcc"><div class="tcc-box"><h3>Entregáveis</h3><p>Backlog, sprints, diagramas, casos de uso, testes, manuais e documentação teórica reunidos no repositório.</p><a class="button secondary" href="https://github.com/giovane-breno/ALPHA-SYSTEM">Explorar documentação ↗</a></div><div class="tcc-box"><h3>Equipe</h3><div class="team"><div class="person"><strong>Isabela Ribeiro</strong><span>Scrum Master</span></div><div class="person"><strong>Giovane Barbosa</strong><span>Product Owner</span></div><div class="person"><strong>Eduardo Paranhos</strong><span>Scrum Team</span></div><div class="person"><strong>Levi Leão</strong><span>Scrum Team</span></div><div class="person"><strong>Marcelo Fernandes</strong><span>Scrum Team</span></div><div class="person"><strong>Vitor Augusto</strong><span>Scrum Team</span></div></div></div></div></section>
+  </main>
+  <footer><div class="wrap footer"><span>Alpha System · Trabalho de conclusão de curso</span><span>Giovane Barbosa · 2023</span></div></footer>
+</body>
+</html>
